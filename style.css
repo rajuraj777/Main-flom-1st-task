@@ -1,0 +1,74 @@
+body {
+    background-image: url("nature.jpg") ;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-position: center;
+    background-repeat: no repeat ;
+    background-size: cover;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  .home{
+    text-align: center;
+    padding: 200px;
+    color: white;
+    font-size: 50px;
+  }
+  nav{
+    height: 70px;
+    box-decoration-break: inherit;
+    
+  }
+  nav ol{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ol li{
+    display: inline-block;
+  }
+  nav ol li a{
+    color: white;
+    padding: 0 15px;
+    line-height: 70px;
+    font-size: 20px;
+    background: rgb(7, 168, 193);
+    transition: .5s;
+  }
+  .h{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 30px;
+  }
+  section{
+    text-align: center;
+    padding: 55px;
+    color: rgb(232, 221, 9);
+    font-size: 35px;
+
+  }
+  h2{
+    text-align: center;
+    padding: 100px;
+    color: white;
+    font-size: 50px;
+
+  }
+  section1{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 35px;
+  }
+  footer{
+    text-align: center;
+    padding: 55px;
+    color: white;
+    font-size: 35px;
+}
+  
